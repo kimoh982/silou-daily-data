@@ -2,7 +2,7 @@
   "service": "SILOU DAILY",
   "dateKey": "2026-09-11",
   "dateLabel": "9월 11일",
-  "updatedAt": "2026-09-11T00:38:47+09:00",
+  "updatedAt": "2026-09-11T03:32:16+09:00",
   "timezone": "Asia/Seoul",
   "source": "KMA",
   "regions": {
@@ -13,21 +13,21 @@
         "ny": 127
       },
       "weatherLabel": "맑음",
-      "currentTemp": 16.6,
-      "feelsLike": 16.3,
+      "currentTemp": 15.3,
+      "feelsLike": 14.6,
       "tempMin": 14.0,
       "tempMax": 28.0,
-      "humidity": 68.0,
-      "windSpeed": 0.8,
+      "humidity": 72.0,
+      "windSpeed": 1.2,
       "rainProbability": 20,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     },
     "부산": {
@@ -37,21 +37,21 @@
         "ny": 76
       },
       "weatherLabel": "맑음",
-      "currentTemp": 20.4,
-      "feelsLike": 19.9,
+      "currentTemp": 20.3,
+      "feelsLike": 20.3,
       "tempMin": 19.0,
       "tempMax": 28.0,
-      "humidity": 60.0,
-      "windSpeed": 1.8,
+      "humidity": 63.0,
+      "windSpeed": 1.3,
       "rainProbability": 20,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     },
     "대구": {
@@ -61,21 +61,21 @@
         "ny": 90
       },
       "weatherLabel": "구름 많음",
-      "currentTemp": 21.1,
-      "feelsLike": 21.0,
+      "currentTemp": 20.1,
+      "feelsLike": 20.4,
       "tempMin": 17.0,
       "tempMax": 28.0,
-      "humidity": 57.0,
-      "windSpeed": 1.2,
+      "humidity": 66.0,
+      "windSpeed": 1.1,
       "rainProbability": 20,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     },
     "인천": {
@@ -85,21 +85,21 @@
         "ny": 124
       },
       "weatherLabel": "맑음",
-      "currentTemp": 13.5,
-      "feelsLike": 14.2,
+      "currentTemp": 12.5,
+      "feelsLike": 13.1,
       "tempMin": 14.0,
       "tempMax": 27.0,
-      "humidity": 93.0,
-      "windSpeed": 0.1,
+      "humidity": 99.0,
+      "windSpeed": 0.2,
       "rainProbability": 20,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     },
     "광주": {
@@ -109,21 +109,21 @@
         "ny": 74
       },
       "weatherLabel": "구름 많음",
-      "currentTemp": 20.8,
-      "feelsLike": 22.4,
+      "currentTemp": 20.3,
+      "feelsLike": 22.0,
       "tempMin": 17.0,
       "tempMax": 30.0,
-      "humidity": 74.0,
-      "windSpeed": 0.5,
+      "humidity": 76.0,
+      "windSpeed": 0.4,
       "rainProbability": 20,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     },
     "대전": {
@@ -132,22 +132,22 @@
         "nx": 67,
         "ny": 100
       },
-      "weatherLabel": "구름 많음",
-      "currentTemp": 18.9,
-      "feelsLike": 20.2,
+      "weatherLabel": "맑음",
+      "currentTemp": 18.2,
+      "feelsLike": 18.7,
       "tempMin": 14.0,
       "tempMax": 26.0,
-      "humidity": 79.0,
-      "windSpeed": 0.6,
+      "humidity": 77.0,
+      "windSpeed": 1.2,
       "rainProbability": 20,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     },
     "울산": {
@@ -156,22 +156,22 @@
         "nx": 102,
         "ny": 84
       },
-      "weatherLabel": "맑음",
-      "currentTemp": 19.9,
-      "feelsLike": 19.3,
+      "weatherLabel": "구름 많음",
+      "currentTemp": 19.3,
+      "feelsLike": 19.2,
       "tempMin": 18.0,
       "tempMax": 27.0,
-      "humidity": 64.0,
-      "windSpeed": 2.1,
+      "humidity": 69.0,
+      "windSpeed": 1.7,
       "rainProbability": 20,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     },
     "제주": {
@@ -180,22 +180,22 @@
         "nx": 52,
         "ny": 38
       },
-      "weatherLabel": "구름 많음",
-      "currentTemp": 23.3,
-      "feelsLike": 24.7,
+      "weatherLabel": "맑음",
+      "currentTemp": 23.0,
+      "feelsLike": 24.3,
       "tempMin": 22.0,
       "tempMax": 27.0,
-      "humidity": 68.0,
-      "windSpeed": 1.4,
-      "rainProbability": 20,
+      "humidity": 70.0,
+      "windSpeed": 1.7,
+      "rainProbability": 0,
       "precipitationType": "0",
       "rainfall1h": "0",
       "source": "기상청 단기예보 조회서비스",
       "base": {
-        "observationDate": "20260910",
-        "observationTime": "2300",
-        "forecastDate": "20260910",
-        "forecastTime": "2300"
+        "observationDate": "20260911",
+        "observationTime": "0200",
+        "forecastDate": "20260911",
+        "forecastTime": "0200"
       }
     }
   },
