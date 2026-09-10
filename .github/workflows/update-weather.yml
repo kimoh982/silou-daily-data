@@ -1,0 +1,45 @@
+name: Update SILOU Daily Weather
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "22 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: silou-daily-weather
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update weather JSON
+        env:
+          KMA_SERVICE_KEY: ${{ secrets.KMA_SERVICE_KEY }}
+        run: python scripts/update_weather.py
+
+      - name: Commit changed weather data
+        run: |
+          if git diff --quiet -- today.json; then
+            echo "No weather changes."
+            exit 0
+          fi
+
+          git config user.name "silou-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add today.json
+          git commit -m "chore: update SILOU DAILY weather"
+          git push
