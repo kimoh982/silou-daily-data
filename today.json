@@ -1,0 +1,5 @@
+{
+  "service": "SILOU DAILY",
+  "status": "waiting-for-first-action",
+  "message": "GitHub Secret KMA_SERVICE_KEY 설정 후 Actions에서 수동 실행하세요."
+}
