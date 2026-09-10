@@ -2,6 +2,7 @@
 import json
 import math
 import os
+import ssl
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -57,8 +58,28 @@ def api_get(endpoint: str, params: dict, service_key: str) -> dict:
         },
     )
 
-    with urlopen(request, timeout=25) as response:
-        raw = response.read().decode("utf-8")
+    # data.go.kr HTTPS can fail on newer Linux/OpenSSL defaults.
+    # Restrict this request only to TLS 1.2 and a compatible security level.
+    ctx = ssl.create_default_context()
+    ctx.minimum_version = ssl.TLSVersion.TLSv1_2
+    ctx.maximum_version = ssl.TLSVersion.TLSv1_2
+    try:
+        ctx.set_ciphers("DEFAULT:@SECLEVEL=1")
+    except ssl.SSLError:
+        pass
+
+    last_error = None
+    for attempt in range(3):
+        try:
+            with urlopen(request, timeout=20, context=ctx) as response:
+                raw = response.read().decode("utf-8")
+            break
+        except Exception as exc:
+            last_error = exc
+            if attempt == 2:
+                raise
+    else:
+        raise last_error
 
     try:
         payload = json.loads(raw)
